@@ -1,0 +1,13 @@
+#batchupload-dialog{
+  display: none;
+}
+.highlight{
+  border: #B25455 3px solid;
+}
+.swfupload{
+  position: absolute;
+  z-index: 1;
+}
+#select_files_button{
+  width: 90px;
+}

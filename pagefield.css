@@ -1,0 +1,161 @@
+#form .pagefield_group{
+	clear:both;
+}
+
+#form INPUT{
+	display:block;
+	float:left;
+	font-size:11px;
+	height:21px;
+	margin:0px;
+}
+
+#form INPUT.textfield{
+   background: url("../images/form_textfield_bg.gif") no-repeat scroll left top transparent;
+   border: medium none;
+   padding: 0 3px;
+   width: 134px;
+}
+
+#form .alt INPUT.textfield{
+	width:128px;
+	padding-left: 20px;
+	background-image: url("../images/form_text_alt.gif");
+}
+
+#form .crop INPUT.textfield{
+	width:75px;
+	padding-right: 25px;
+	background-image: url("../images/form_text_crop.gif");
+}
+
+#form INPUT.imagefield[type=file]{
+	width: 73px;
+}
+
+#form DIV.textarea{
+	background:#FFF;
+	padding:5px;
+	width:500px;
+	min-height:40px;
+}
+
+#form TEXTAREA.textarea{
+	width:510px;
+	font-family: "Courier New", "Lucida Console", Courier, monospace;
+	font-size: 11px;
+}
+
+.none{
+	display:none;
+}
+
+.pagefield_group{
+	padding:3px 0 3px 0;
+}
+
+.pagefield_group .label{
+	width: 120px;
+	float: left;
+	font-size: 11px;
+	padding-top: 3px;
+}
+
+.pagefield_group .textfield{
+	float:left;
+}
+
+.pagefield_group .textarea_control{
+
+}
+
+.pagefield_group.group .label{
+	font-style:italic;
+}
+
+.pagefield_group.group .group{
+	overflow:auto;
+	padding-bottom:5px;
+	margin-bottom:5px;
+	border-bottom:solid #000 1px;
+}
+
+.pagefield_group .comment{
+	font-weight:bold;
+	font-size:10px;
+	color:#D5B079;
+}
+
+.group-item .group{
+	clear:both;
+}
+
+.ordering A{
+	height:16px;
+	font-weight: bold;
+	font-size: 8px;
+	float:left;
+	display:block;
+}
+
+.ordering A.btn-order-up,
+.ordering A.btn-order-down{
+	width: 16px;
+	text-indent: -999px;
+}
+
+.ordering A.btn-order-up:hover,
+.ordering A.btn-order-down:hover{
+	background-color: #B25455;
+}
+
+.ordering A.item-index{
+	background: #B25455;
+	padding: 0 3px;
+}
+
+.ordering A.btn-order-up{
+	background: url(../images/action_up.gif) no-repeat;
+}
+
+.ordering A.btn-order-down{
+	background: url(../images/action_down.gif) no-repeat;
+}
+
+.btn_crop{
+	cursor:pointer;
+}
+
+.crop-tool-viewer{
+	position: absolute;
+	min-width: 100px;
+	min-height:100px;
+	background-color: #666666;
+}
+
+.crop-tool-viewer .target-image{
+	opacity: 0.8;
+}
+
+.crop-tool-viewer .crop-area{
+	position: absolute;
+	height:4px;
+	width:4px;
+	background-color: #FFF;
+}
+
+.crop-tool-viewer .crop-center{
+	position: absolute;
+	height:4px;
+	width:4px;
+	background-color: #F00;
+}
+
+@media screen and (max-width: 670px) {
+	#form textarea.textarea{
+		width:90%;
+	}
+	#form INPUT.textfield{
+		clear:both;
+	}
+}
