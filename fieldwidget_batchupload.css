@@ -11,3 +11,33 @@
 #select_files_button{
   width: 90px;
 }
+#batchupload-dialog .title{
+  line-height: 50px;
+  font-size: 13px;
+}
+#batchupload-dialog .advance{
+  float: right;
+  padding-right: 28px;
+}
+#batchupload-dialog .advance A{
+  cursor: pointer;
+}
+#batchupload-dialog .file_token{
+  line-height: 30px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+#batchupload-dialog .file_token LABEL{
+  width: 100px;
+}
+#batchupload-dialog .file_token INPUT{
+  width: 50px;
+}
+.ui-dialog .ui-widget-header {
+  background-image: none;
+  background-color: #D5B079;
+}
+.ui-dialog .ui-widget-header .ui-state-default {
+  background-image: none;
+  background-color: #091D0C;
+}
