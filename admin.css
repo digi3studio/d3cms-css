@@ -53,12 +53,7 @@ TD{
 }
 
 .pagefield_group .list tr{
-	background:#0a2b1a;
 	border-bottom:#4ebfab dotted 1px;
-}
-
-.pagefield_group .list TR:hover{
-	background:#21412f;
 }
 
 BODY{
