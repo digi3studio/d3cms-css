@@ -147,8 +147,9 @@ FORM .field SELECT.multiple{
 
 FORM .field INPUT.textfield{
 	padding:0px 3px 0px 3px;
-	border:none;
-	background:url(../images/form_textfield_bg.gif) no-repeat top left;
+	border:1px solid #999999;
+	border-radius: 4px;
+
 }
 
 FORM .field .hint{
@@ -156,6 +157,10 @@ FORM .field .hint{
 	height:5px;
 	float:left;
 	display:none;
+}
+
+FORM .field .options{
+	padding-left: 120px;
 }
 
 FORM .fieldsplit{
@@ -170,9 +175,9 @@ FORM .field INPUT.button:hover{
 
 TEXTAREA.textfield{
 	width:300px;
- 	color: #555555;
-    font-family: Verdana,Geneva,Arial;
-    font-size: 12px;
+	color: #555555;
+	font-family: Verdana,Geneva,Arial;
+	font-size: 12px;
 }
 
 .listbox TD{
@@ -249,7 +254,7 @@ A.action_delete:hover{
 }
 
 #stamp {
-/*	background:url(../images/admin_logo.gif) no-repeat center 20px;*/
+	/*	background:url(../images/admin_logo.gif) no-repeat center 20px;*/
 	height:30px;
 }
 
@@ -347,13 +352,18 @@ a.btn-edit{
 	display: block;
 	float: left;
 	overflow: hidden;
-	padding: 1px 18px 0 6px;
 	background: url(../images/action_bg.gif) no-repeat right top;
 }
 
 .action a, .action a:hover {
 	color: #091D0C;
 	text-decoration: none;
+	line-height: 10px;
+	background: url(../images/action_bg.gif) no-repeat right top;
+}
+
+.action a:hover{
+	color:#FFF;
 }
 
 .field input.button {
