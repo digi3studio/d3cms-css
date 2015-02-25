@@ -1,0 +1,388 @@
+@import 'skin';
+
+/*style for admin*/
+.none{
+  display:none;
+}
+
+.hide{
+  visibility:hidden;
+}
+
+.action a,
+.action a:hover{
+  background: none;
+  padding: 0;
+}
+
+html{
+  background: $html-bg;
+}
+
+body,
+.body .text,
+.body a,
+.fields {
+  color: $text-color;
+  font-family: $content-font;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+a {
+  font-weight: bold;
+  color: $text-color;
+}
+
+body,
+.body .text,
+.fields{
+  color:#333;
+}
+
+body{
+  background:none;
+  font-size:12px;
+}
+
+hr{
+  clear:both;
+  border:none;
+  border-bottom:dotted 1px #FFF;
+}
+
+th,
+td{
+  text-align:left;
+  border:none;
+  padding:2px 8px 2px 0px;
+}
+
+th{
+  color:#000001;
+  background:#4ebfab;
+}
+
+td{
+  color:#333333;
+}
+
+.list tr{
+  background:#FFF;
+  border-bottom:#0a2b1a dotted 1px;
+}
+
+.list tr:hover{
+  background:#eaf7f5;
+}
+
+.content{
+  padding:0 65px;
+}
+
+.subject{
+  color:#FFF;
+}
+
+table.list{
+  width:100%;
+  margin-bottom:20px;
+}
+
+.action{
+  margin:2px 10px 8px 0px;
+  float:left;
+}
+
+.field .hint{
+  font-size:10px;
+}
+
+.content {
+  color:#333;
+}
+
+/* form style*/
+form
+{
+  width:800px;
+}
+
+form
+{
+  .field{
+	width:310px;
+	float:left;
+	padding:3px 0 3px 0;
+  }
+
+  .field.wide{
+	width:620px;
+  }
+
+  .field .label{
+	width:120px;
+	float:left;
+	font-size:11px;
+	padding-top:3px;
+  }
+
+  .field .label.wide{
+	width:240px;
+  }
+
+  .field INPUT.textfield,
+  .field SELECT{
+	margin:0px;
+	height:21px;
+	width:134px;
+	font-size:11px;
+
+	@include text-field($input-border-color);
+  }
+
+  .field SELECT.multiple{
+	height:210px;
+  }
+
+  .field INPUT.textfield{
+	@include text-field($input-border-color);
+  }
+
+  .field .hint{
+	width:5px;
+	height:5px;
+	float:left;
+	display:none;
+  }
+
+  .field .options{
+	padding-left: 120px;
+  }
+
+  .fieldsplit{
+	clear:both;
+  }
+
+  .field INPUT.button{
+  }
+
+  .field INPUT.button:hover{
+  }
+}
+
+TEXTAREA.textfield
+{
+  width:300px;
+  color: #555555;
+  font-family: $textarea-font;
+  font-size: 12px;
+}
+
+.listbox{
+  overflow:auto;
+  background:url(images/d3core/dot_hori_white.gif) repeat-x bottom;
+  padding-bottom:10px;
+}
+
+.listbox{
+  td{
+	padding:0px;
+  }
+
+  .list.message{
+	padding-bottom:8px;
+  }
+
+  .action{
+	clear:both;
+  }
+}
+
+/*layout*/
+.panel{
+  float:left;
+  width:300px;
+  background:url(images/d3core/dot_vert_white.gif) repeat-y right;
+  margin-right:10px;
+}
+
+.panel_content{
+  float:left;
+  width:60%;
+}
+
+/*delete button*/
+td.action-delete,
+th.action-delete{
+  width:18px;
+}
+
+.action-delete{
+  a{
+	width: 16px;
+	display: block;
+	height: 0;
+	margin: 0;
+	overflow: hidden;
+	padding-top: 16px;
+	background:url(images/d3core/action_delete.gif) no-repeat;
+  }
+
+  a:hover{
+	background-position: 0 -16px;
+  }
+}
+
+/*layout*/
+.column1_3{
+  width:30%;
+  float:left;
+  padding-right:10px;
+}
+
+.intro{
+  padding:80px 0 0 0;
+  min-height:70px;
+}
+
+.campaign_explain{
+  background:url(images/d3cms/campaign_explain.jpg) no-repeat top center;
+}
+
+.frontpage_explain{
+  background:url(images/d3cms/frontpage_explain.jpg) no-repeat top left;
+}
+
+.metatag_explain{
+  background:url(images/d3cms/metatag_explain.jpg) no-repeat top left;
+}
+
+#stamp {
+  /*	background:url(../images/admin_logo.gif) no-repeat center 20px;*/
+  height:30px;
+}
+
+.clear{
+  clear:both;
+}
+
+/*page edit*/
+a.btn-edit{
+  display:block;
+  width:16px;
+  height:16px;
+  background: url(images/d3core/action_edit.gif) no-repeat;
+  overflow:hidden;
+  text-indent: -30px;
+}
+
+.list[data-has-order='true'] .header-edit{
+  background: url(images/d3core/icon_order_enable.gif) left center no-repeat #4ebfab;
+}
+
+.report{
+  width:30%;
+  padding-right: 10px;
+  float:left;
+}
+
+.preview iframe{
+  width:100%;
+  height:360px;
+}
+
+.headline,
+.subject {
+  font-family: $headline-font;
+  margin:10px 0 5px 0;
+  font-size: 20px;
+  line-height: 1.2em;
+  color: $headline-text-color;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.action{
+  a {
+	display: block;
+	float: left;
+	@include button();
+  }
+
+  a:hover{
+	@include button();
+  }
+}
+
+.field{
+  input.button {
+	cursor: pointer;
+	color:$button-text-color;
+	@include button();
+  }
+
+  input.button:hover{
+	color:$button-hover-text-color;
+  }
+}
+
+table.list .view a{
+  display: block;
+  background: url('images/d3core/action_preview.gif') no-repeat;
+  width:16px;
+  height:16px;
+  overflow: hidden;
+  text-indent: -900px;
+}
+
+/*mobile style*/
+@media screen and (max-width: 670px) {
+  body{
+	min-width: 280px;
+  }
+
+  .body,
+  .body .text,
+  .body a{
+	font-size: 10px;
+	line-height: 1.2em;
+  }
+
+  .action a{
+	font-size: 12px;
+  }
+
+  .intro{
+	padding:80px 0 0 0;
+	min-height:0;
+  }
+
+  form{
+	width:100%;
+  }
+
+  .content{
+	padding:0 10px;
+  }
+
+  .report,
+  .column1_3{
+	width:100%;
+	float:none;
+	clear:both;
+  }
+
+  #stamp {
+	background:none;
+	height:1px;
+  }
+
+  .body .headline{
+	font-size: 20px;
+  }
+
+  .campaign_explain{
+	background-position: top left;
+  }
+}

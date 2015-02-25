@@ -1,0 +1,35 @@
+$header-font:"Times New Roman", Times, serif;
+$content-font:Arial, Helvetica, sans-serif;
+$headline-font:Tahoma, Geneva, sans-serif;
+$textarea-font:"Courier New", "Lucida Console", Courier, monospace;
+
+$header-color:#000000;
+$header-text-color:#1BAD93;
+$header-text-link-color:#FFFFFF;
+$header-text-hover-color:$header-text-color;
+$content-headline-color:$header-text-color;
+$headline-text-color:$header-text-color;
+$html-bg:#b3e6dc;
+$text-color:#091D0C;
+$input-border-color:#999999;
+
+$button-text-color:#000000;
+$button-hover-text-color:#FFFFFF;
+
+@mixin text-field($border-color){
+  padding: 0 3px 0 3px;
+  border: 1px solid #{$border-color};
+  border-radius: 4px;
+}
+
+@mixin button(){
+  height: 20px;
+  font-size: 12px;
+  line-height: 1em;
+  padding: 5px 25px 5px 10px;
+  border-radius: 4px;
+  border:none;
+  font-weight: bold;
+  background: url("images/d3core/action_bg.gif") no-repeat right top;
+  overflow: hidden;
+}
