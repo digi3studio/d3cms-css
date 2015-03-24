@@ -1,0 +1,60 @@
+@import 'skin';
+
+/* CSS Document */
+#adminnav{
+  padding-top: 3px;
+  font-size:11px;
+  font-family:$header-font;
+  color:$header-text-color;
+  background:$header-color;
+  overflow:hidden;
+  width:100%;
+}
+
+#adminnav{
+  UL{
+	margin:1px 0 0 0;
+	padding:0 0 0 55px;
+  }
+
+  LI{
+	text-transform: uppercase;
+	list-style:none;
+	float:left;
+  }
+
+  LI#logout{
+	float:right;
+  }
+
+  a{
+	padding:0 10px 0 10px;
+	color:$header-text-link-color;
+	text-decoration:none;
+  }
+
+  A:hover{
+	color:$header-text-hover-color;
+  }
+
+  #ajax_wait{
+	float:left;
+	width:20px;
+	height:18px;
+	background:url(images/d3core/icon_waiting.gif) no-repeat;
+  }
+}
+
+.hide{
+  visibility:hidden;
+}
+
+@media screen and (max-width: 670px) {
+  #adminnav ul{
+	padding:0 10px 0 0;
+  }
+
+  #adminnav{
+	position: relative;
+  }
+}

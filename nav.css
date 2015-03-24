@@ -1,55 +1,42 @@
 /* CSS Document */
-NAV#adminnav{
-	padding-top: 3px;
-	font-size:11px;
-	font-family:Times New Roman;
-	color:#4ebfab;
-}
+#adminnav {
+  padding-top: 3px;
+  font-size: 11px;
+  font-family: "Times New Roman", Times, serif;
+  color: #1BAD93;
+  background: #000000;
+  overflow: hidden;
+  width: 100%; }
 
-NAV#adminnav{
-	background:#000;
-	overflow:hidden;
-}
+#adminnav UL {
+  margin: 1px 0 0 0;
+  padding: 0 0 0 55px; }
+#adminnav LI {
+  text-transform: uppercase;
+  list-style: none;
+  float: left; }
+#adminnav LI#logout {
+  float: right; }
+#adminnav a {
+  padding: 0 10px 0 10px;
+  color: #FFFFFF;
+  text-decoration: none; }
+#adminnav A:hover {
+  color: #1BAD93; }
+#adminnav #ajax_wait {
+  float: left;
+  width: 20px;
+  height: 18px;
+  background: url(images/d3core/icon_waiting.gif) no-repeat; }
 
-NAV#adminnav UL{
-	margin:1px 0 0 0;
-	padding:0 0 0 55px;
-
-}
-NAV#adminnav LI{
-	text-transform: uppercase;
-	list-style:none;
-	float:left;
-}
-
-NAV#adminnav LI#logout{
-	float:right;
-}
-
-NAV#adminnav a{
-	padding:0 10px 0 10px;
-	color:#FFFFFF;
-	text-decoration:none;
-
-}
-
-NAV#adminnav A:hover{
-	color:#1BAD93;
-}
-
-NAV#adminnav #ajax_wait{
-	float:left;
-	width:20px;
-	height:18px;
-	background:url(../images/icon_waiting.gif) no-repeat;
-}
-
-.hide{
-	visibility:hidden;
-}
+.hide {
+  visibility: hidden; }
 
 @media screen and (max-width: 670px) {
-	nav#adminnav ul{
-		padding-left: 0px;
-	}
-}
+  #adminnav ul {
+    padding: 0 10px 0 0; }
+
+  #adminnav {
+    position: relative; } }
+
+/*# sourceMappingURL=nav.css.map */
