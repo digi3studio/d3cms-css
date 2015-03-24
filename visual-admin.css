@@ -1,0 +1,38 @@
+#inline-preview{
+	visibility: hidden;
+	height:0;
+	overflow: hidden;
+}
+
+.mode-preview #inline-preview{
+	height:auto;
+	overflow: auto;
+	visibility: visible;
+}
+
+.mode-preview #inline-preview iframe{
+	width:100%;
+	height:650px;
+}
+
+.mode-preview #page{
+	width:100%;
+	height:100px;
+	overflow-y: scroll;
+	position: fixed;
+	z-index: 999;
+	bottom: -0px;
+	left:0px;
+	background: #FFFFFF;
+	padding:10px;
+}
+
+.mode-preview .content{
+	padding:0;
+}
+
+#action-advance{
+	font-weight: bold;
+	float:right;
+	cursor: pointer;
+}

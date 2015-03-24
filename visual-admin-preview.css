@@ -1,0 +1,13 @@
+#adminnav{
+	display:none;
+}
+
+.admin-item{
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.show-admin-item .admin-item,
+.admin-item:hover{
+	background: rgba(0,255,255,0.2);
+}
