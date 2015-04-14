@@ -71,13 +71,13 @@
   .alt INPUT.textfield{
 	width:128px;
 	padding-left: 20px;
-	background: url("images/d3cms/form_text_alt.gif") no-repeat -1px -1px;
+	background: url("images/d3cms/form_text_alt.gif") no-repeat -1px -1px #FFF;
   }
 
   .crop INPUT.textfield{
 	width:75px;
 	padding-right: 25px;
-	background: url("images/d3cms/form_text_crop.gif") no-repeat right -1px;
+	background: url("images/d3cms/form_text_crop.gif") no-repeat right -1px #FFF;
   }
 
   INPUT.imagefield[type=file]{
@@ -219,6 +219,23 @@
 	width:4px;
 	background-color: #F00;
   }
+}
+
+#footer-button-group{
+  padding:10px 0 0 0;
+  width:100%;
+  clear:both;
+  overflow: hidden;
+}
+
+#output.code{
+  clear:both;
+  font-size:9px;
+  width:100%;
+  line-height: 1em;
+  overflow:hidden;
+  padding:10px 0 0 0;
+  font-family: "Courier New", "Lucida Console", Courier, monospace;
 }
 
 @media screen and (max-width: 670px) {

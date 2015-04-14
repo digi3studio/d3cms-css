@@ -112,6 +112,7 @@ form
 {
   .field{
 	width:310px;
+	min-height: 23px;
 	float:left;
 	padding:3px 0 3px 0;
   }
@@ -308,10 +309,12 @@ a.btn-edit{
 	display: block;
 	float: left;
 	@include button();
+	height:10px;
   }
 
   a:hover{
 	@include button();
+	height:10px;
   }
 }
 
