@@ -162,6 +162,21 @@
   padding: 10px 0 0 0;
   font-family: "Courier New", "Lucida Console", Courier, monospace; }
 
+/*gallery photo view*/
+.pagefield_group.group.image_sortable tr {
+  width: 150px;
+  height: 150px;
+  float: left;
+  border: 1px solid #FFF;
+  margin: 4px; }
+
+.pagefield_group.group.image_sortable TABLE.list {
+  width: 100%; }
+
+.pagefield_group.group.image_sortable tr .ordering a,
+.pagefield_group.group.image_sortable tr .ordering div {
+  display: none; }
+
 @media screen and (max-width: 670px) {
   #form textarea.textarea {
     width: 90%; }
