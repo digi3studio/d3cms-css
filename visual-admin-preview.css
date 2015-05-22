@@ -2,12 +2,17 @@
 	display:none;
 }
 
-.admin-item{
+.inline-input{
 	transition: 0.3s;
 	cursor: pointer;
 }
 
-.show-admin-item .admin-item,
-.admin-item:hover{
+.show-admin-item .inline-input,
+.inline-input:hover{
 	background: rgba(0,255,255,0.2);
+}
+
+.show-admin-item img.inline-input,
+img.inline-input:hover {
+	opacity: 0.5;
 }

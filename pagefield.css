@@ -8,15 +8,16 @@
   width: 120px;
   float: left;
   font-weight: bold;
-  color: #4ebfab; }
+  color: #ffc72c; }
 .language-switch a.lang-switch {
   font-size: 10px;
   display: block;
   width: 20px;
   float: left;
   text-decoration: none;
-  color: #4ebfab; }
-.language-switch a.active {
+  color: #ffc72c; }
+.language-switch a.active,
+.language-switch a.lang-switch:hover {
   color: #b25455; }
 
 .page_type_select {
@@ -33,6 +34,7 @@
   margin-right: 20px; }
 
 #form .pagefield_group {
+  float: left;
   clear: both; }
 #form INPUT {
   display: block;
@@ -79,8 +81,6 @@
   color: #333333; }
 .pagefield_group a:hover {
   color: #1BAD93; }
-.pagefield_group .list tr {
-  border-bottom: #4ebfab dotted 1px; }
 .pagefield_group .label {
   width: 120px;
   float: left;
@@ -92,38 +92,6 @@
   font-weight: bold;
   font-size: 10px;
   color: #D5B079; }
-
-.pagefield_group.group .label {
-  font-style: italic; }
-.pagefield_group.group .group {
-  overflow: auto;
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-  border-bottom: solid #000 1px; }
-
-.group-item .group {
-  clear: both; }
-
-.ordering A {
-  height: 16px;
-  font-weight: bold;
-  font-size: 8px;
-  float: left;
-  display: block; }
-.ordering A.btn-order-up,
-.ordering A.btn-order-down {
-  width: 16px;
-  text-indent: -999px; }
-.ordering A.btn-order-up:hover,
-.ordering A.btn-order-down:hover {
-  background-color: #B25455; }
-.ordering A.item-index {
-  background: #B25455;
-  padding: 0 3px; }
-.ordering A.btn-order-up {
-  background: url(images/d3core/action_up.gif) no-repeat; }
-.ordering A.btn-order-down {
-  background: url(images/d3core/action_down.gif) no-repeat; }
 
 .btn_crop {
   cursor: pointer; }
@@ -177,6 +145,7 @@
 .pagefield_group.group.image_sortable tr .ordering div {
   display: none; }
 
+/*visual admin*/
 @media screen and (max-width: 670px) {
   #form textarea.textarea {
     width: 90%; }

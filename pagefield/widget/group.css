@@ -1,0 +1,38 @@
+table.widget-group {
+  border-radius: 5px;
+  background-color: #EEE; }
+
+.pagefield_group.group .label {
+  font-style: italic; }
+
+.widget-group .group {
+  overflow: hidden;
+  clear: both;
+  background: #DDD;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px; }
+.widget-group td,
+.widget-group th {
+  border: none;
+  text-align: left; }
+
+.ordering A {
+  font-weight: bold; }
+.ordering A.btn-order-up,
+.ordering A.btn-order-down {
+  width: 16px;
+  text-indent: -999px; }
+.ordering A.btn-order-up:hover,
+.ordering A.btn-order-down:hover {
+  background-color: #B25455; }
+.ordering A.item-index {
+  background: #333;
+  padding: 0 5px;
+  border-radius: 15px;
+  cursor: default;
+  font-size: 10px;
+  margin: 0 5px;
+  color: #FFF; }
+
+/*# sourceMappingURL=group.css.map */
