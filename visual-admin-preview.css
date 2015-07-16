@@ -2,13 +2,14 @@
 	display:none;
 }
 
-.inline-input{
+span.inline-input{
 	transition: 0.3s;
 	cursor: pointer;
+	font:inherit;
 }
 
-.show-admin-item .inline-input,
-.inline-input:hover{
+.show-admin-item span.inline-input,
+span.inline-input:hover{
 	background: rgba(0,255,255,0.2);
 }
 
