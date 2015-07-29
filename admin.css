@@ -230,30 +230,28 @@ a.btn-edit {
   float: left;
   font-size: 12px;
   line-height: 1em;
-  padding: 5px 25px 5px 10px;
+  padding: 5px 25px 3px 10px;
   border-radius: 4px;
   border: none;
   font-weight: bold;
   background: url("images/d3core/action_bg.gif") no-repeat right top;
-  overflow: hidden;
-  height: 10px; }
+  overflow: hidden; }
 .action a:hover {
   font-size: 12px;
   line-height: 1em;
-  padding: 5px 25px 5px 10px;
+  padding: 5px 25px 3px 10px;
   border-radius: 4px;
   border: none;
   font-weight: bold;
   background: url("images/d3core/action_bg.gif") no-repeat right top;
-  overflow: hidden;
-  height: 10px; }
+  overflow: hidden; }
 
 .field input.button {
   cursor: pointer;
   color: #000000;
   font-size: 12px;
   line-height: 1em;
-  padding: 5px 25px 5px 10px;
+  padding: 5px 25px 3px 10px;
   border-radius: 4px;
   border: none;
   font-weight: bold;

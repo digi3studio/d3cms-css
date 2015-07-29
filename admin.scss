@@ -309,12 +309,10 @@ a.btn-edit{
 	display: block;
 	float: left;
 	@include button();
-	height:10px;
   }
 
   a:hover{
 	@include button();
-	height:10px;
   }
 }
 

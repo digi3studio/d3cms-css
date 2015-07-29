@@ -99,6 +99,10 @@
 	font-size: 11px;
 	@include text-field($input-border-color);
   }
+
+  .mce-tinymce{
+	float:left;
+  }
 }
 
 .pagefield_group{

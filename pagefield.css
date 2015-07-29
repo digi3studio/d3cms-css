@@ -72,6 +72,8 @@
   padding: 0 3px 0 3px;
   border: 1px solid #999999;
   border-radius: 4px; }
+#form .mce-tinymce {
+  float: left; }
 
 .pagefield_group {
   color: #333333;
