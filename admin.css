@@ -83,6 +83,10 @@ table.list {
 /* form style*/
 form {
   width: 800px; }
+  form:after {
+    content: "";
+    display: block;
+    clear: both; }
 
 form .field {
   width: 310px;
@@ -192,7 +196,8 @@ th.action-delete {
   height: 30px; }
 
 .clear {
-  clear: both; }
+  clear: both;
+  visibility: visible; }
 
 /*page edit*/
 a.btn-edit {
