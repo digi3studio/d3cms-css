@@ -344,6 +344,13 @@ table.list .view a{
   text-indent: -900px;
 }
 
+.pagination-wrapper{
+  width: 100%;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+}
+
 /*mobile style*/
 @media screen and (max-width: 670px) {
   body{
